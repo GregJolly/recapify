@@ -6,8 +6,8 @@ import TrackSearchResult from './TrackSearchResult.js'
 import Player from './Player.js'
 
 const spotifyApi = new SpotifyWebApi({
-    clientId: '863823f6ace345c1abaf27b438f2e41e',
-    clientSecret: '56c5c494c8f847938ae50711ba2491c4',
+    clientId: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
 })
 
 
