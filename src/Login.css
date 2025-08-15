@@ -1,0 +1,56 @@
+.login-background {
+    background: linear-gradient(135deg, #1DB954 0%, #191414 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: gradientShift 15s ease infinite;
+    background-size: 400% 400%;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+  }
+  
+  .spotify-button {
+    font-weight: 600;
+    background-color: #1DB954;
+    border: none;
+    box-shadow: 0 0 10px #1DB954;
+    transition: all 0.3s ease;
+  }
+  
+  .spotify-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1DB954;
+  }
+  
